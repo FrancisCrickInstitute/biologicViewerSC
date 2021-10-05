@@ -144,7 +144,7 @@ shiny::runApp(paste0(projectPath, project_id, "_app"))
 If you want to deploy the app on a shiny server, simply transfer the project folder, in the example case names test_PBMC_app onto the shiny server. 
 
 
-## Option 2B: MySQL/MariaDB Remote Database Version
+## Option B: MySQL/MariaDB Remote Database Version
 
 This option is particularly for large datasets. Also it can be useful to minimise the datafootprint, as data only needs to be stored in one place for world-wide availability. 
 
